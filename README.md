@@ -1,103 +1,90 @@
-<div align="center">
+# I build AI agents that can transact on-chain.
 
-# Hi, I'm Zaky Irsyad Rais
+**Full-Stack Engineer** · Yogyakarta, Indonesia · Open to remote
 
-**AI/Web3 builder with frontend and product engineering roots.**
+I work at the intersection of AI agents and on-chain execution: agents that hold a
+budget, call real tools, sign real transactions, and leave an auditable trail. I ship
+whole products, usually solo, usually in one to four weeks.
 
-I build agent-first products, on-chain interfaces, payment flows, and AI-powered
-workflows across personal projects and public organization work.
+- 🤖 **Agent runtimes** — MCP servers, tool calling, and LLM decision layers wired to real execution
+- ⛓️ **On-chain rails** — stablecoin payments, smart accounts, x402, ZK settlement
+- 🚀 **Shipping** — 15 products delivered · 8× hackathon winner
+- 💬 Ask me about MCP payment flows, idempotent order execution, or agent memory
 
-[Portfolio](https://zaky.asia) ·
-[LinkedIn](https://www.linkedin.com/in/zaky-irsyad-rais-047b83170) ·
-[Instagram](https://instagram.com/zakyirsyaad) ·
-[Email](mailto:zkyxentertain@gmail.com)
+### What I'm building
 
-</div>
+| Project | What it does |
+|---|---|
+| [**AgentPay**](https://www.agentpay.site/) | MCP-first payment runtime — autonomous agents pay in USDC across X Layer, Celo, and Arc with spend caps and audit trails |
+| [**Notch3**](https://github.com/zakyirsyaad/notch3) | macOS AI assistant living in the notch — dual-wallet boundary, autonomous x402 settlement, zero-port IPC, Swift 6 |
+| [**Mirai AI**](https://miraiagent.vercel.app/) | Autonomous X content agent — license-gated, OAuth 2.0 PKCE, MCP tools for Codex, Claude, and Hermes |
+| [**Langclaw AI · Mantle**](https://github.com/Langclaw-AI-Mantle) | Wallet-authenticated AI research workspace with on-chain proofs — Best Deployment, Mantle Turing Test 2026 |
+| [**Langclaw AI · Sui**](https://langclawsui.vercel.app/) | Sui-first AI alpha platform with encrypted verifiable memory on Walrus and Seal |
+| [**Langclaw AI · Celo**](https://github.com/Langclaw-AI-Celo) | Celo-anchored AI strategy workspace with Self proof, MiniPay, and USDT usage billing |
+| [**Elaina AI**](https://github.com/Elaina-AI-Agents) | AI agents reaching people through WhatsApp instead of a web chat surface |
+| [**IDLE AI**](https://github.com/IDLE-AI) | AI-powered token launchpad — agent infrastructure plus a Solidity token factory and swaps |
+| [**Exoduze**](https://github.com/zakyirsyaad/exoduze) | AI-agent prediction market — Next.js, Fastify, and Solana/Anchor in one monorepo |
+| [**DARX**](https://darxcrypto.vercel.app/) | Crypto dark pool — encrypted orders, off-chain matching, Groth16 proof settlement on Arbitrum |
+| [**wearelazydev**](https://github.com/wearelazydev) | Bounty platform where merged pull requests are proven with zkTLS — 1st place, Mammothon 2025 |
+| [**Freex**](https://github.com/freexcrypto) | Rupiah-stablecoin payment gateway — non-custodial settlement split inside the same transaction |
+| [**GrowFi**](https://growfi.43-134-58-217.sslip.io/) | Solana farming GameFi — Phaser 3 gameplay, marketplace, direct trades, on-chain economy |
+| [**VeritasDAO**](https://github.com/veritasdao) | Web3 community crowdfunding with wallet-connected campaigns |
+| [**Bekaspakai**](https://github.com/zakyirsyaad) | Second-hand marketplace built and launched solo — 1st place, Startup Hackathon ASTRO 6.0 |
 
----
+### Architecture, documented
 
-## About
+**6 shipped products · 50 architecture decision records · 1 verification script**
 
-- Informatics student at Universitas Islam Indonesia, based in Yogyakarta, Indonesia.
-- Focused on AI agents, Web3 products, frontend systems, and developer tooling.
-- Comfortable shipping across frontend, backend, smart contracts, and agent runtimes.
-- I like turning early product ideas into usable interfaces, integrations, and demos.
+Six of these products carry their own architecture documentation — written the way I would
+want to receive it if I joined the team tomorrow.
 
-## Current Focus
+**Patterns applied and documented**
 
-- Building AI agent workflows with MCP, CAP/A2A, plugin runtimes, and chat-native UX.
-- Designing Web3 products around stablecoin payments, proof flows, and on-chain actions.
-- Shipping frontend-heavy products with Next.js, React, TypeScript, and modern UI systems.
+`layered architecture` · `ports and adapters` · `factory` · `append-only on-chain registries` ·
+`off-chain compute with on-chain verification` · `two-phase settlement` · `non-custodial escrow` ·
+`metered usage accounting` · `provider abstraction`
 
-## Public Work Across Organizations
+**What is inside each repository**
 
-- **[agentpay-okx/agentpay-xlayer](https://github.com/agentpay-okx/agentpay-xlayer)** -
-  chat-approved stablecoin payments and x402 service discovery for X Layer agents.
-  Areas: AI agents, payments, X Layer, TypeScript.
-- **[Langclaw AI Celo](https://github.com/Langclaw-AI-Celo)** -
-  Celo-first AI intelligence stack with frontend, backend, contracts, MiniPay,
-  proof center, and usage billing. Areas: frontend, backend, Solidity, Celo.
-- **[Lazydev AI Earn](https://github.com/Lazydev-AI-Earn)** -
-  AI-powered Web3 bounty platform with public frontend and backend work.
-  Areas: product engineering, frontend, backend.
-- **[Sentinel AI Protocol](https://github.com/Sentinel-AI-Protocol)** -
-  multi-part AI/Web3 protocol work across frontend, backend, contracts, and
-  zklogin prover surface. Areas: frontend, backend, Move, zklogin.
-- **[Darx Crypto Dark Pool](https://github.com/Darx-Crypto-Dark-Pool)** -
-  private trading powered by zero-knowledge proofs, with fullstack, frontend,
-  and backend repositories. Areas: ZK, dark pool, fullstack, TypeScript.
-- **[Langclaw CROO Agent](https://github.com/Langclaw-AI-CROO/langclaw-croo-agent)** -
-  paid callable research agent for CROO CAP and MCP clients.
-  Areas: agent services, CROO, MCP, TypeScript.
+| File | Covers |
+|---|---|
+| `01-context` → `03-components` | C4 model in Mermaid — system context, containers, components |
+| `04-api-surface` | Endpoints and contracts, specified in OpenAPI |
+| `05-flows` | Runtime sequences for the paths that matter |
+| `06-data-model` | Tables and on-chain state — which layer owns which fact |
+| `07-security-model` | Trust boundaries, custody, authority, failure modes |
+| `08-deployment` | Environments, networks, release path |
+| `09-future-work` | What is knowingly unfinished, and why |
+| `adr/0001…` | Decision records: context, decision, consequences |
+| `tools/verify-docs.sh` | Checks every documented claim against the source |
 
-## Selected Personal Builds
+**The six**
 
-- **[AgentPay](https://github.com/zakyirsyaad/agentpay)** -
-  plugin-first, MCP-first payment runtime for chat-approved stablecoin payments.
-- **[Mirai AI](https://github.com/zakyirsyaad/mirai-ai)** -
-  autonomous X content agent with licensing, hosted execution, and plugin-based operation.
-- **[Universal Workbench AI Agent](https://github.com/zakyirsyaad/Universal-Workbench-AI-Agent)** -
-  CROO/A2A work-pack agent for planning, research, verification, and creator ops.
-- **[DARX / ZK Dark Pool](https://github.com/zakyirsyaad/zk-darkpool)** -
-  zero-knowledge private trading prototype with frontend, backend, contracts,
-  and Circom circuits.
+| Product | Decisions documented |
+|---|---|
+| [**FreexCrypto**](https://github.com/freexcrypto/Architecture-FreexCrypto) (10) | Rupiah-stablecoin settlement asset · on-chain fee split · non-custodial checkout · layered backend · three-repository split |
+| [**IDLE AI**](https://github.com/IDLE-AI/Architecture-IDLE) (10) | Token-per-agent factory · fixed supply · on-chain agent metadata · wallet layer · API routes as the agent bridge |
+| [**Langclaw Celo**](https://github.com/Langclaw-AI-Celo/Architecture-Langclaw-Celo) (10) | Anchoring decisions on-chain · append-only registries · metered usage vault · Ownable2Step withdrawal authority · planner over eleven providers |
+| [**DARX**](https://github.com/Darx-Crypto-Dark-Pool/darx-architecture) (7) | Encrypted off-chain FIFO matching · backend proving with on-chain verification · client-signed settlement |
+| [**wearelazydev**](https://github.com/wearelazydev/wearelazydev-architecture) (10) | zkTLS proof of a merged PR · on-chain bounty escrow · dedicated proof service · two-phase claim settlement |
+| [**Elaina AI**](https://github.com/Elaina-AI-Agents/elaina-architecture) (3) | Agent runtime and messaging integration · C4, Mermaid, and OpenAPI as the documentation contract |
 
-## Tech Stack
+### Recent wins
 
-**AI agents / MCP**
+- 🥇 **Best Deployment Project** — Mantle Turing Test Hackathon 2026
+- 🥇 **1st Place** — Mammothon 2025 by Encode Club × Celestia Foundation
+- 🥈 **2nd Place** — MetaMask Card Hackathon
+- 🥈 **2nd Place** — Indonesia Hacker House Web3 Hackathon 2025 by Manta Network
 
-MCP, agent plugins, CAP/A2A workflows, hosted agent runtimes, chat-native approvals
+### Stack
 
-**Web3 / smart contracts**
+```text
+AI        OpenAI · Vercel AI SDK · LangChain · MCP · RAG · tool calling
+Web3      Solidity · Foundry · Wagmi · Viem · Solana/Anchor · Sui Move · x402 · ZK
+Frontend  Next.js · React · TypeScript · Tailwind · Shadcn UI
+Backend   Node.js · Python async · Supabase · Prisma · PostgreSQL · Redis
+```
 
-Solidity, Foundry, Wagmi, RainbowKit, Circom, Groth16, stablecoin payments, x402
+### Reach me
 
-**Frontend**
-
-React, Next.js, TypeScript, JavaScript, Tailwind CSS, Shadcn UI, Redux Toolkit, TanStack Query
-
-**Backend / infrastructure**
-
-Node.js, Express, Supabase, PostgreSQL, MySQL, Firebase, Vercel, REST APIs
-
-**Design / tooling**
-
-Figma, Git, GitHub, npm, Vite, product prototyping
-
-## GitHub Stats
-
-<div align="center">
-
-![Zaky's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=zakyirsyaad&theme=github_dark)
-
-![Top languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zakyirsyaad&theme=github_dark)
-
-</div>
-
-## Contact
-
-- Portfolio: [zaky.asia](https://zaky.asia)
-- GitHub: [@zakyirsyaad](https://github.com/zakyirsyaad)
-- LinkedIn: [Zaky Irsyad Rais](https://www.linkedin.com/in/zaky-irsyad-rais-047b83170)
-- Instagram: [@zakyirsyaad](https://instagram.com/zakyirsyaad)
-- Email: [zkyxentertain@gmail.com](mailto:zkyxentertain@gmail.com)
+[Portfolio](https://zaky.asia) · [LinkedIn](https://linkedin.com/in/zakyirsyad) · [Email](mailto:zaky.irsyad@gmail.com)

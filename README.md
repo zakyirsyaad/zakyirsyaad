@@ -69,12 +69,16 @@ want to receive it if I joined the team tomorrow.
 | [**wearelazydev**](https://github.com/wearelazydev/wearelazydev-architecture) (10) | zkTLS proof of a merged PR · on-chain bounty escrow · dedicated proof service · two-phase claim settlement |
 | [**Elaina AI**](https://github.com/Elaina-AI-Agents/elaina-architecture) (3) | Agent runtime and messaging integration · C4, Mermaid, and OpenAPI as the documentation contract |
 
-### Recent wins
+### Hackathon wins
 
-- 🥇 **Best Deployment Project** — Mantle Turing Test Hackathon 2026
-- 🥇 **1st Place** — Mammothon 2025 by Encode Club × Celestia Foundation
-- 🥈 **2nd Place** — MetaMask Card Hackathon
-- 🥈 **2nd Place** — Indonesia Hacker House Web3 Hackathon 2025 by Manta Network
+- 🥇 **Best Deployment Project** — Mantle Turing Test Hackathon 2026 · *Langclaw AI Mantle*
+- 🥇 **1st Place** — Mammothon 2025 by Encode Club × Celestia Foundation · *wearelazydev*
+- 🥇 **1st Place** — Startup Hackathon ASTRO 6.0 2024 · *Bekaspakai*
+- 🥈 **2nd Place** — MetaMask Card Hackathon · *Freex*
+- 🥈 **2nd Place** — Indonesia Hacker House Web3 Hackathon 2025 by Manta Network · *IDLE AI*
+- 🥉 **3rd Place, Best Rating Team** — Informatics Expo 2023
+
+Also placed **Top 10** in the Lisk Builder Challenge Round 1 and **Top 58 teams** at HackFest 2023 by Google Developers.
 
 ### Stack
 

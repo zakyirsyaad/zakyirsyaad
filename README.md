@@ -8,7 +8,7 @@ whole products, usually solo, usually in one to four weeks.
 
 - 🤖 **Agent runtimes** — MCP servers, tool calling, and LLM decision layers wired to real execution
 - ⛓️ **On-chain rails** — stablecoin payments, smart accounts, x402, ZK settlement
-- 🚀 **Shipping** — 15 products delivered · 8× hackathon winner
+- 🚀 **Shipping** — 15 products delivered · 4× hackathon podium
 - 💬 Ask me about MCP payment flows, idempotent order execution, or agent memory
 
 ### What I'm building
@@ -18,7 +18,7 @@ whole products, usually solo, usually in one to four weeks.
 | [**AgentPay**](https://www.agentpay.site/) | MCP-first payment runtime — autonomous agents pay in USDC across X Layer, Celo, and Arc with spend caps and audit trails |
 | [**Notch3**](https://github.com/zakyirsyaad/notch3) | macOS AI assistant living in the notch — dual-wallet boundary, autonomous x402 settlement, zero-port IPC, Swift 6 |
 | [**Mirai AI**](https://miraiagent.vercel.app/) | Autonomous X content agent — license-gated, OAuth 2.0 PKCE, MCP tools for Codex, Claude, and Hermes |
-| [**Langclaw AI · Mantle**](https://github.com/Langclaw-AI-Mantle) | Wallet-authenticated AI research workspace with on-chain proofs — Best Deployment, Mantle Turing Test 2026 |
+| [**Langclaw AI · Mantle**](https://github.com/Langclaw-AI-Mantle) | Wallet-authenticated AI research workspace with on-chain proofs — Top 20, Best Deployment track, Mantle Turing Test 2026 |
 | [**Langclaw AI · Sui**](https://langclawsui.vercel.app/) | Sui-first AI alpha platform with encrypted verifiable memory on Walrus and Seal |
 | [**Langclaw AI · Celo**](https://github.com/Langclaw-AI-Celo) | Celo-anchored AI strategy workspace with Self proof, MiniPay, and USDT usage billing |
 | [**Elaina AI**](https://github.com/Elaina-AI-Agents) | AI agents reaching people through WhatsApp instead of a web chat surface |
@@ -71,7 +71,7 @@ want to receive it if I joined the team tomorrow.
 
 ### Hackathon wins
 
-- 🥇 **Best Deployment Project** — Mantle Turing Test Hackathon 2026 · *Langclaw AI Mantle*
+- 🏅 **Top 20 Winner, Best Deployment Project track** — Mantle Turing Test Hackathon 2026 · *Langclaw AI Mantle*
 - 🥇 **1st Place** — Mammothon 2025 by Encode Club × Celestia Foundation · *wearelazydev*
 - 🥇 **1st Place** — Startup Hackathon ASTRO 6.0 2024 · *Bekaspakai*
 - 🥈 **2nd Place** — MetaMask Card Hackathon · *Freex*

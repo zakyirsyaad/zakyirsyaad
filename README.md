@@ -8,7 +8,7 @@ whole products, usually solo, usually in one to four weeks.
 
 - 🤖 **Agent runtimes** — MCP servers, tool calling, and LLM decision layers wired to real execution
 - ⛓️ **On-chain rails** — stablecoin payments, smart accounts, x402, ZK settlement
-- 🚀 **Shipping** — 24 products delivered · 4× hackathon podium · plugins published to npm
+- 🚀 **Shipping** — 24 products delivered · 9 hackathon & competition awards · plugins published to npm
 - 💬 Ask me about MCP payment flows, idempotent order execution, or agent memory
 
 ### What I'm building
